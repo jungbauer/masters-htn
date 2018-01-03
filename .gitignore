@@ -1,0 +1,9 @@
+/.idea
+/build/Debug/masters_fsm
+/build/Debug/*.config
+/build/Debug/Logs/*.log
+/build/Debug/Logs/*.txt
+/build/Debug/Logs/*.csv
+/build/Debug/Logs/*.json
+/argh
+/cmake-build-debug
