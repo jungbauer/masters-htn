@@ -1,0 +1,20 @@
+{
+  "game_type": 0,
+  "time_limit": 300000,
+  "score_limit": 20,
+  "map": "Maps/small1.map",
+  "iterations": 10,
+  "daemon_run": true,
+  "team_one": {
+    "ai_type": "S1",
+    "num_bots": 9,
+    "num_squads": 3,
+    "respawn_time": 45
+  },
+  "team_two": {
+    "ai_type": "R1",
+    "num_bots": 9,
+    "num_squads": 3,
+    "respawn_time": 45
+  }
+}
