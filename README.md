@@ -1,12 +1,12 @@
 # masters-htn README
 
-###Installation Dev
+## Installation Dev
 sudo apt-get install libsdl1.2-dev  
 sudo apt-get install libsdl-image1.2-dev  
 sudo apt-get install libsdl-gfx1.2-dev  
 sudo apt-get install libsdl-ttf2.0-dev
 
-###Installaion Server
+## Installaion Server
 Used non-dev versions.  
 sudo apt-get install libsdl1.2debian  
 sudo apt-get install libsdl-image1.2  
@@ -16,7 +16,7 @@ sudo apt-get install libsdl-gfx1.2-5
 Only needed if running on 16.04  
 Had to copy the libSDL_gfx.so.13.9.1 to server and make a symbolic link to libSDL_gfx.so.13. Executable couldn't find that file.
 
-###Config.json format
+## Config.json format
 ```
 {
   "game_type": 0,
@@ -40,5 +40,5 @@ Had to copy the libSDL_gfx.so.13.9.1 to server and make a symbolic link to libSD
 ```
 
 
-###Running
+## Running
 ./masters_fsm -cf config.json 2>&1 | tee Logs/catch-$(date +%Y%m%d_%H%M%S).log
